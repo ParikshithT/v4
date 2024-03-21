@@ -61,15 +61,16 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Parikshith Thriyambaka.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const three = (
+    <h3 className="big-heading">I architect the data backbone of digital innovation.</h3>
+  );
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        I'm a data engineer specializing in crafting robust data solutions for diverse applications.
+        Currently, I'm honing my skills in data analytics engineering at at{' '}
+        <a href="https://www.northeastern.edu/" target="_blank" rel="noreferrer">
+          Northeastern University, Boston
         </a>
         .
       </p>
