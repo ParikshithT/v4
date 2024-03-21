@@ -125,7 +125,18 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Python',
+    'SQL',
+    'Spark',
+    'Hadoop',
+    'GCP',
+    'AWS',
+    'Airflow',
+    'dbt',
+    'Databases (MySQL, Postgres, MongoDB)',
+    'Datawarehouses (BigQuery, Redshift, Snowflake)',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +146,25 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              My journey in data engineering ignited from a profound curiosity for deciphering
+              complex data sets during my undergraduate studies, blossoming into a passion that
+              drove me through numerous challenges and learning opportunities.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              At <a href="https://us.mullenlowe.com/">Digital API Craft</a>, my role in leading data
+              pipeline projects for clients like <a href="https://starry.com/">HSBC</a>, and{' '}
+              <a href="https://www.apple.com/">Khan Bank</a> not only refined my technical skills in
+              Python, SQL, and Spark but also highlighted the transformative power of data-driven
+              decision-making. This professional experience, complemented by my ongoing pursuit of a
+              Master’s in Data Analytics Engineering at{' '}
+              <a href="https://www.northeastern.edu/" target="_blank" rel="noreferrer">
+                Northeastern University
+              </a>
+              , has equipped me with a comprehensive understanding of data analytics and operational
+              efficiencies. I am ready to embrace the future challenges of the data engineering
+              field, leveraging my expertise to innovate and lead in the evolving landscape of
+              technology.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -173,7 +179,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/Parikshith.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
