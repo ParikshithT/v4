@@ -126,16 +126,14 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Python',
-    'SQL',
-    'Spark',
-    'Hadoop',
-    'GCP',
-    'AWS',
-    'Airflow',
-    'dbt',
-    'Databases (MySQL, Postgres, MongoDB)',
-    'Datawarehouses (BigQuery, Redshift, Snowflake)',
+    'Programming: Python, Scala, SQL',
+    'Spark, Hadoop, dbt, Apache Kafka, Splunk',
+    'Agile: Apache Airflow, Git, Gitlab, JIRA',
+    'Viz Tools: Tableau, PowerBI, Superset, Looker',
+    'GCP: Dataflow, Dataproc, Pub/Sub',
+    'AWS: Lambda, EC2, EMR, S3, Glue',
+    'Databases: MySQL, Postgres, MongoDB, DynamoDB',
+    'Datawarehouses: BigQuery, Redshift, Snowflake',
   ];
 
   return (
